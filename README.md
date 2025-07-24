@@ -1,5 +1,5 @@
 # Reconstruction of phylogenetic tree
-Source code of the paper"A Unified Optimization Framework for Maximum Parsimony: From Efficient Classical Models to Variational Quantum Algorithms".
+Source code of the paper"Inference of maximum parsimony phylogenetic tree with model based classical and quantum methods".
 
 # Implementation and Paper Link
 - Implementation: https://github.com/DemonCass/Phylogenetic-tree
