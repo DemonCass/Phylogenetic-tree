@@ -22,11 +22,11 @@ class PhylogeneticTreeReconstruction:
         self.leaves_nuc = [random.randint(0, 4) for _ in range(num_leaves)]
 
         self.cost_matrix = np.array([
-            [0, 1.5, 1.5, 1, 2],
-            [1.5, 0, 1, 1.5, 2],
-            [1.5, 1, 0, 1.5, 2],
-            [1, 1.5, 1.5, 0, 2],
-            [2, 2, 2, 2, 0]
+            [0, 1, 1, 1, 1],
+            [1, 0, 1, 1, 1],
+            [1, 1, 0, 1, 1],
+            [1, 1, 1, 0, 1],
+            [1, 1, 1, 1, 0]
         ])
 
         self.y_size = (2 * num_leaves - 3) * (num_leaves - 2) - (num_leaves - 2) * (num_leaves - 3) // 2
