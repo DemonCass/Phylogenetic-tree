@@ -16,11 +16,11 @@ class PhylogeneticTreeConfig:
         self.max_solve_time = max_solve_time
         self.leaves_nucleotides = [random.randint(0, 4) for _ in range(leaf_nodes)]
         self.substitution_matrix = np.array([
-            [0, 2, 1, 2, 4],
-            [2, 0, 2, 1, 4],
-            [1, 2, 0, 2, 4],
-            [2, 1, 2, 0, 4],
-            [4, 4, 4, 4, 0]
+            [0, 1, 1, 1, 1],
+            [1, 0, 1, 1, 1],
+            [1, 1, 0, 1, 1],
+            [1, 1, 1, 0, 1],
+            [1, 1, 1, 1, 0]
         ])
 
 
