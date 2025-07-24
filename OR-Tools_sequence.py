@@ -26,11 +26,11 @@ class SequencePhylogeneticConfig:
             self.leaf_sequences[leaf] = [random.randint(0, 4) for _ in range(sequence_length)]
 
         self.substitution_matrix = np.array([
-            [0, 2, 1, 2, 4],
-            [2, 0, 2, 1, 4],
-            [1, 2, 0, 2, 4],
-            [2, 1, 2, 0, 4],
-            [4, 4, 4, 4, 0]
+            [0, 1, 1, 1, 1],
+            [1, 0, 1, 1, 1],
+            [1, 1, 0, 1, 1],
+            [1, 1, 1, 0, 1],
+            [1, 1, 1, 1, 0]
         ])
 
 
