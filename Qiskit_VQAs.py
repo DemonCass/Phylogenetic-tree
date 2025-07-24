@@ -26,11 +26,11 @@ class PhylogeneticTreeOptimizer:
         self.all_nodes = set(range(2 * num_leaves - 2))
         self.leaves_nuc = [random.randint(0, 4) for _ in range(num_leaves)]
         self.similarity_matrix = np.array([
-            [0, 2, 1, 2, 4],
-            [2, 0, 2, 1, 4],
-            [1, 2, 0, 2, 4],
-            [2, 1, 2, 0, 4],
-            [4, 4, 4, 4, 0]
+            [0, 1, 1, 1, 1],
+            [1, 0, 1, 1, 1],
+            [1, 1, 0, 1, 1],
+            [1, 1, 1, 0, 1],
+            [1, 1, 1, 1, 0]
         ])
         self.hami_symbols = self._get_hamiltonian_symbols()
         self.nqubits = len(self.hami_symbols)
