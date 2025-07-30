@@ -17,7 +17,7 @@ algorithm_globals.massive = True
 
 
 class PhylogeneticTreeOptimizer:
-    def __init__(self, num_leaves=3, penalty_weight=10, random_seed=170):
+    def __init__(self, num_leaves= , penalty_weight= , random_seed=170):
         self.num_leaves = num_leaves
         self.penalty_weight = penalty_weight
         self.random_seed = random_seed
