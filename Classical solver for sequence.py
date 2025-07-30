@@ -7,8 +7,8 @@ from ortools.sat.python import cp_model
 
 
 class SequencePhylogeneticConfig:
-    def __init__(self, num_leaves=20, sequence_length=200, parsimony_penalty=10,
-                 timer_limit=3000, max_solve_time=100000, num_workers=12):
+    def __init__(self, num_leaves=20, sequence_length= , parsimony_penalty= ,
+                 timer_limit=3000, max_solve_time=100000, num_workers= ):
         self.A = parsimony_penalty
         self.num_leaves = num_leaves
         self.sequence_length = sequence_length
@@ -306,11 +306,11 @@ class SequencePhylogeneticSolver:
 def main():
     config = SequencePhylogeneticConfig(
         num_leaves=20,
-        sequence_length=200,
-        parsimony_penalty=10,
+        sequence_length= ,
+        parsimony_penalty= ,
         timer_limit=3000,
         max_solve_time=100000,
-        num_workers=12
+        num_workers= 
     )
 
     print("SEQUENCE-BASED PHYLOGENETIC TREE RECONSTRUCTION USING OR-TOOLS CP-SAT")
