@@ -1,4 +1,4 @@
-# Reconstruction of phylogenetic tree
+# Reconstruction of maximum parsimony phylogenetic tree
 Source code of the paper"Inference of maximum parsimony phylogenetic tree with model based classical and quantum methods".
 
 # Implementation and Paper Link
@@ -7,7 +7,7 @@ Source code of the paper"Inference of maximum parsimony phylogenetic tree with m
 # Requirements
 We have tested this environment with the following requirements:
 - python=3.9.0
-- python=3.12.10(for PennyLane)
+- python=3.12.10
 - numpy=1.26.4
 - ortools=9.12.4544
 - qiskit=0.46.2
