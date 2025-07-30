@@ -10,7 +10,7 @@ import random
 
 
 class PhylogeneticTreeReconstruction:
-    def __init__(self, num_leaves=3, penalty_weight=10, random_seed=42):
+    def __init__(self, num_leaves= , penalty_weight= , random_seed=42):
         np.random.seed(random_seed)
         random.seed(random_seed)
 
