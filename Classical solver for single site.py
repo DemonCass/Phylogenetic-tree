@@ -6,7 +6,7 @@ from ortools.sat.python import cp_model
 
 
 class PhylogeneticTreeConfig:
-    def __init__(self, leaf_nodes=10, parsimony_penalty=10, timer_limit=500, max_solve_time=180):
+    def __init__(self, leaf_nodes= , parsimony_penalty= , timer_limit=500, max_solve_time=180):
         self.P = parsimony_penalty
         self.leaf_nodes = leaf_nodes
         self.reference_node = {0}
@@ -250,8 +250,8 @@ class PhylogeneticTreeSolver:
 
 def main():
     config = PhylogeneticTreeConfig(
-        leaf_nodes=10,
-        parsimony_penalty=10,
+        leaf_nodes= ,
+        parsimony_penalty= ,
         timer_limit=500,
         max_solve_time=180
     )
