@@ -3,7 +3,7 @@ Source code of the paper"Inference of maximum parsimony phylogenetic tree with m
 
 # Implementation and Paper Link
 - Implementation: https://github.com/DemonCass/Phylogenetic-tree
-- Paper Access:
+- Paper Access: https://advanced.onlinelibrary.wiley.com/doi/10.1002/qute.202500695
 # Requirements
 We have tested this environment with the following requirements:
 - python=3.9.0
